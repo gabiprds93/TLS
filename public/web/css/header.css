@@ -1,0 +1,72 @@
+/*Header*/
+header{position: fixed;z-index: 50;top: 3% /*cambiar a 0 en mobile*/;left: 2%;height: 16%;background: white;width: 96%;display: flex;align-items: center;justify-content: center;}
+.headerContainer{display: flex;align-items: center;justify-content: space-between;width: 91%;}
+.headerContainer>a{display: flex;align-self: center;justify-content: center;width: 13%;}
+.headerLogo{width: 100%;/*position: relative;*//*background: white;*/border-radius: 0 0 5px 5px;}
+.menuContainer{width: 75%;/*border: 1px dashed red;*/display: flex;align-items: flex-end;justify-content: center;flex-direction: column;}
+.menuLinks{display: flex;align-items: center;justify-content: center;margin-bottom: 2.5%;position: relative;z-index: 2;}
+.menuLinks a, .menuLinks span{font-size: .9rem;color: var(--gray);text-decoration: none;margin-left: 35px;}
+.menuLinks li{list-style: none;position: relative;}
+.subMenu{position: absolute;top: 2rem;background: white;left: 20%;display: flex;align-items: center;justify-content: center;flex-direction: column;transition: .7s all;display: none;border-radius: 0 0 8px 8px;padding: 0 1rem;}
+.subMenu li{margin-bottom: .7rem;}
+.subMenu a{font-size: .9rem;color: var(--gray);text-decoration: none;margin: 0rem !important}
+.menuLinks li:hover .subMenu{display: initial;}
+
+
+
+/*ANOTHER HEADER*/
+.headerMenu{display: flex;align-items: flex-start;justify-content: space-between;max-height: 1.5rem;margin-bottom: .5rem;width: 70%;}
+.headerMenu a{font-size: .9rem;color: var(--gray);text-decoration: none;}
+.hMenuLink{display: flex;align-items: center;justify-content: flex-start;flex-direction: column;max-height: 1.5rem;background: white;position: relative;overflow: hidden;    border-radius: 0 0 8px 8px;z-index: 5;}
+.hMenuLink .hSubMenu{display: flex;align-items: flex-start;justify-content: center;flex-direction: column;opacity: 0;margin: .7rem 0;width: 6.5rem;padding: 0 .7rem;box-sizing: border-box; /*position: absolute;top: 1.5rem;*/}
+.hMenuLink .hSubMenu a{margin: .4rem 0}
+/*.toggleSubMenu{display: initial !important;}*/
+.firstChild{margin-left: 0;}
+.menuSearch{display: flex;align-items: center;justify-content: flex-end;width: 100%;}
+.search{display: flex;align-items: center;justify-content: flex-end;/*width: 60%;*/width: 21rem;margin-right: 2rem;border: 1px solid #DBDCDE;box-sizing: border-box;padding: .2rem 1.1rem .2rem 0;}
+.search input{width: 100%;padding: .4rem 1rem;border: none;}
+.search>img{width: 4.5%;}
+.searchIcons{display: flex;align-items: center;justify-content: space-between;width: 17%;}
+.searchIcons img{width: 16%;}
+
+
+/********************************************************************************************/
+@media screen and (min-width: 1367px) {
+
+} 
+/********************************************************************************************/
+@media screen and (max-width: 1366px) {
+
+} 
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:1024px){
+
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:768px) {
+	header{top: 0;bottom: 0;left: 0;right: 0;height: 100% !important;width: 100%;}
+	.menuContainer{display: none;}
+	.headerContainer{justify-content: center;}
+	.headerContainer>a{width: 80%;height: 30rem;}
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:640px) {
+	header{top: 0;bottom: 0;left: 0;right: 0;height: 100% !important;width: 100%;}
+	.menuContainer{display: none;}
+	.headerContainer{justify-content: center;}
+}
+/********************************************************************************************/
+@media (max-width:480px) {
+	html{font-size: 13px;}
+
+	/*Header*/
+	.fakeHeader{height: 5rem;background: transparent;}
+	header{top: 0;width: 100%;height: 11% !important;}
+	.headerContainer{justify-content: center;}
+	.headerLogo{width: 70% !important;}
+	.menuContainer{display: flex;}
+	.headerContainer>a{width: 45%;height: auto;}
+	.radarTLS{display: none;}
+
+}
+/********************************************************************************************/

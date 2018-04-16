@@ -1,0 +1,51 @@
+.campusContainer{/*border: 1px dashed red;*/width: 92%;height: 84%;position: relative;display: flex;align-items: center;justify-content: flex-end;margin-top: 2%;}
+.sedesContainer{background: rgba(37,42,50,.9);width: 100%;position: absolute;bottom: 1.4rem;}
+.mapaMainContainer{/*border: 1px dashed green;*/height: 100%;width: 70%;background: rgba(255,255,255,.5);}
+.mapaContainer{width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;}
+#map{width: 100%;height: 100%;}
+.campusImgMainContainer{/*border: 1px dashed purple;*/height: 100%;position: absolute;left: 0;top: 0;width: 50%;display: flex;align-items: flex-start;justify-content: flex-end;}
+.campusImgContainer{height: 90%;width: 75%;display: flex;align-items: center;justify-content: flex-end;}
+.campusImgContainer img{width: 100%;height: 60%;box-shadow: 10px 10px 70px -11px rgba(0,0,0,.6);}
+.sedeBox{display: flex;align-items: center;justify-content: center;padding: 1.5% 0;}
+.sedeBoxTittle{margin-bottom: .5rem;}
+.sedeBoxTittle .parent{display: flex;align-self: center;justify-content: center;}
+.sedeBoxDirection p{font-size: .9rem;}
+.sedeBox .boxs{display: flex;align-items: flex-start;justify-content: space-between;width: 95%;/*border: 1px dashed red;*/}
+.sedeBox .boxs .box{display: flex;align-items: center;justify-content: center;flex-direction: column;width: calc((100% - 5rem) / 5);text-align: center;}
+.box .line{height: .5rem;width: 120%;opacity: 0;transition: .7s all;}
+.box .letter{font-weight: bold;font-size: 1.5rem;}
+
+
+/********************************************************************************************/
+@media screen and (min-width: 1367px) {
+
+} 
+/********************************************************************************************/
+@media screen and (max-width: 1366px) {
+
+} 
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:1024px){
+
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:768px) {
+
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:640px) {
+}
+/********************************************************************************************/
+@media (max-width:480px) {
+	.sedeBox .boxs{flex-wrap: wrap;}
+	.sedeBox .boxs .box{width: calc((100% - 3rem) / 2);margin-bottom: 1rem;}
+	.sedesContainer{bottom: 0;}
+	.campusContainer{width: 100%;height: 98%;}
+	.mapaMainContainer{width: 100%;margin-top: 0;}
+	.campusFakeHeader{height: 3.5rem;}
+	.campusImgMainContainer{width: 75%;height: 25%;align-items: flex-start;justify-content: center;}
+	.campusImgContainer{height: 100%;width: 100%;align-items: flex-end;}
+	.campusImgContainer img{width: 70%;height: 75%;}
+
+}
+/********************************************************************************************/

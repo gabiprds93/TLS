@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="15px" viewBox="0 0 31 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Foundation / Icons / Simple / Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M25.6849568,5.81389563 L22.1644753,2.29341411 C21.6397082,1.7686471 21.6397082,0.917831655 22.1644753,0.393064638 C22.6892423,-0.131702379 23.5400577,-0.131702379 24.0648247,0.393064638 L29.8805747,6.20881464 C30.4054269,6.73366682 30.4053293,7.58465046 29.8803566,8.10938217 L24.0242941,13.9627572 C23.4994067,14.4874037 22.6485913,14.4872085 22.1239447,13.962321 C21.5992981,13.4374336 21.5994934,12.5866181 22.1243809,12.0619716 L25.6865916,8.50139563 L1.3442875,8.50139563 C0.602154867,8.50139563 0.0005375,7.89977826 0.0005375,7.15764563 C0.0005375,6.41551299 0.602154867,5.81389563 1.3442875,5.81389563 L25.6849568,5.81389563 Z" id="path-1"></path>
+    </defs>
+    <g id="Carreras-profesionales---Animacion-digital---Alumnos-Egresados---Interna" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-616.000000, -1032.000000)">
+        <g id="info" transform="translate(529.000000, 488.000000)">
+            <g id="Foundation-/-Icons-/-Simple-/-Arrow" transform="translate(104.500000, 550.500000) rotate(-180.000000) translate(-104.500000, -550.500000) translate(83.000000, 529.000000)">
+                <g id="Page-1" transform="translate(8.062500, 13.437500)">
+                    <g id="Foundation-/-Colors-/-Neutral-/-N001">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#252A32" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#1B2638" id="Properties-/-Colors-/-Neutral-/-N001">
+                            <g transform="translate(-8.062500, -13.437500)">
+                                <rect x="0" y="0" width="43" height="43"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

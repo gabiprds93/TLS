@@ -1,0 +1,44 @@
+.graciasContainer{/*border: 1px dashed red;*/height: 100%;width: 45%;background: white;}
+.graciasContainer .up{background: url(../img/bgGTls.png);width: 100%;height: 45%;background-repeat: no-repeat;background-position: center bottom;background-size: 100%;display: flex;align-items: flex-end;justify-content: center;}
+.up img{position: relative;top: 1rem;}
+.graciasContainer .down{display: flex;align-items: center;justify-content: center;flex-direction: column;padding-top: 1.5rem;}
+.down h3{font-size: 2rem;color: #252A32;margin-bottom: .5rem;}
+.down h5{color: #8590A1;font-size: .9rem;}
+.down>a{color: #252A32;font-weight: bold;text-decoration: none;margin: 1rem 0 1.3rem 0;}
+.down span{font-size: 1.5rem;}
+.down .redes{width: 60%;border-top: 1px solid #EAECF0;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.down .redes p{color: #8590A1; font-size: .8rem;margin: .5rem 0;}
+.redesLinks{display: flex;align-items: center;justify-content: space-around;width: 50%;}
+.redesLinks a{color: #8590A1;font-size: 1.5rem;}
+
+/********************************************************************************************/
+@media screen and (min-width: 1451px) {
+
+}
+/********************************************************************************************/
+@media screen and (max-width: 1450px) {
+
+} 
+/********************************************************************************************/
+@media screen and (max-width: 1366px) {
+
+} 
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:1024px){
+
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:768px) {
+
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:640px) {
+}
+/********************************************************************************************/
+@media (max-width:480px) {
+	.graciasContainer{width: 100%;}
+	.graciasContainer .up{height: 42%;background-position: -2rem -3rem;background-size: 130% 120%;}
+	.redesLinks a{font-size: 2.5rem;}
+	.redesLinks{width: 90%;}
+}
+/********************************************************************************************/

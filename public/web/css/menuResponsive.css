@@ -1,0 +1,92 @@
+.menuResponsiveContainer{margin-top: 5rem;width: 100%;height: calc(100vh - 5rem);background: transparent;left: 100%;display: flex; align-items: center;justify-content: flex-end;position: fixed;bottom: 0;z-index: 40;}
+.menuResponsiveCont{margin: 4rem 0;width: 90%;}
+.menuLinkSubMenu{margin-right: 4rem;}
+.menuLinkContenedor{overflow: hidden; text-align: right;transition: .4s all;max-height: 3rem;}
+/*.menuLinkContenedor:hover{max-height: 40rem;}*/
+
+.btnSidbar>button{background-color: transparent;border: none;height: 40px;position: absolute;right: 1rem;width: 40px;cursor: pointer;}
+.btnSidbar>button span{background-color: #000;height: 3px;left: 0px;position: absolute;width: 30px;}
+.btnSidbar>button span:before{background-color: #000;content: '';height: 3px;left: 0px;position: absolute;top: -10px;transition: .5s;width: 35px;}
+.btnSidbar>button span:after{background-color: #000;content: '';height: 3px;left: 0px;position: absolute;top: 10px;transition: .5s;width: 35px;}
+.btn-sidebar.toggle span{background-color: transparent;}
+.btn-sidebar.toggle span:before{top: 0px;transform: rotate(45deg);}
+.btn-sidebar.toggle span:after{top: 0px;transform: rotate(-45deg);}
+.menuResponsive{position: relative;height: auto;display: flex;align-items: flex-end;justify-content: flex-start;flex-direction: column;width: 80%;}
+.menuResponsive a{background: transparent;text-decoration: none;font-size: 1.18rem;color: black;cursor: pointer;}
+.menuLink{margin-bottom: 1rem;position: relative;overflow:hidden;transform: .7s all;}
+.menuLink:hover{max-height: 40rem;}
+.menuLink img{width: 1.5rem; margin-left: 2rem;}
+.linkLinea{position: absolute;transition: .5s all;}
+.ll1{background: #FF1976;height: .7rem;width: 100%; z-index: -1; bottom: 1px;right: 100%;}
+.ll2{background: #0AB9DD;height: .7rem;width: 100%; z-index: -1; bottom: 1px;right: 100%;}
+.ll3{background: #C23CC6;height: .7rem;width: 100%; z-index: -1; bottom: 1px;right: 100%;}
+.ll4{background: #FF9700;height: .7rem;width: 100%; z-index: -1; bottom: 1px;right: 100%;}
+.ll5{background: #A9C827;height: .7rem;width: 100%; z-index: -1; bottom: 1px;right: 100%;}
+.ll6{background: #ff6b00;height: .7rem;width: 100%; z-index: -1; bottom: 1px;right: 100%;}
+hr{width: 60%;margin: 0 auto;border: .5px solid rgba(0,0,0,.1); margin-bottom: 2rem; margin-top: 1.5rem;}
+.menuResponsiveInfo{width: 60%;margin: 0 auto;}
+.menuResponsiveInfo{text-align: right;}
+.info{margin-bottom: .5rem;font-size: .6rem;}
+.info a{text-decoration: none;color: black;}
+.menuResponsiveInfo .info:nth-child(3){display: flex;align-items: center;justify-content: flex-end;}
+.menuResponsiveInfo .info:nth-child(3) p{margin-left: 1rem;}
+.linkN1:hover .ll1{right: calc(0% + 3.5rem);}
+.linkN2:hover .ll2{right: calc(0% + 3.5rem);}
+.linkN3:hover .ll3{right: calc(0% + 3.5rem);}
+.linkN4:hover .ll4{right: calc(0% + 3.5rem);}
+.linkN5:hover .ll5{right: calc(0% + 3.5rem);}
+.linkN6:hover .ll6{right: calc(0% + 3.5rem);}
+.menuResponsiveMain{background: #F6F6F4; width: 35%; height: 101%;overflow: auto;display: flex;align-items: center;justify-content: flex-start;box-shadow: -30px 0px 64px -35px rgba(0,0,0,0.8);}
+.menuResponsiveFondoNegro{ background: transparent; height: 100%; width: 15.9%;}
+.btnSidbar{ background: transparent; width: 3rem;height: calc(100vh - 5rem); margin-top: 5rem; position: fixed; top: 0rem; right: -.5rem;display: flex;align-items: center;justify-content: center;z-index: 100;}
+.menuLinkSubMenu a{text-decoration: none;color: black;font-size: 1rem;cursor: pointer;}
+
+
+.noDisponible{display: none;}
+
+
+/********************************************************************************************/
+@media screen and (min-width: 1367px) {
+
+} 
+/********************************************************************************************/
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 1280px) {
+.headerMenu{width: 80%;}
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:1024px){
+	.headerMenu{width: 90%;}
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:768px) {
+	.noDisponible{display: initial;}
+	.btn-sidebar{display: none;}
+	.btnSidbar{height: 5rem;margin-top: 0;}
+	.menuDesktopContainer{display: none;}
+	.menuResponsiveFondoNegro{display: none;}
+	.menuResponsiveMain{width: 100%;}
+	.menuResponsive,hr,.menuResponsiveInfo{width: 80%}
+	.menuResponsive .menuLink:nth-child(1):hover .ll1{right: calc(0%);}
+	.menuResponsive .menuLink:nth-child(2):hover .ll2{right: calc(0%);}
+	.menuResponsive .menuLink:nth-child(3):hover .ll3{right: calc(0%);}
+	.menuResponsive .menuLink:nth-child(4):hover .ll4{right: calc(0%);}
+	.menuResponsive .menuLink:nth-child(5):hover .ll5{right: calc(0%);}
+	.menuLinkSubMenu{margin-right: 0;}
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:640px) {
+	.btn-sidebar{display: none;}
+	.noDisponible{display: initial;}
+	.btnSidbar>button{right: 2rem;top: .5rem;}
+}
+/********************************************************************************************/
+@media (max-width:480px) {
+	.noDisponible{display: none;}
+	.btn-sidebar{display: initial;}
+	.menuResponsiveMain{box-shadow: -30px 0px 64px -35px rgba(0,0,0,0);}
+	.menuResponsive{width: 100%;}
+}
+/********************************************************************************************/

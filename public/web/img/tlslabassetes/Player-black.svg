@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Foundation / Icons / Simple / Player</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M45,84.375 C66.746212,84.375 84.375,66.746212 84.375,45 C84.375,23.253788 66.746212,5.625 45,5.625 C23.253788,5.625 5.625,23.253788 5.625,45 C5.625,66.746212 23.253788,84.375 45,84.375 Z M45,90 C20.1471863,90 0,69.8528137 0,45 C0,20.1471863 20.1471863,0 45,0 C69.8528137,0 90,20.1471863 90,45 C90,69.8528137 69.8528137,90 45,90 Z M62.5410325,43.7202 L36.5625,28.6916203 L36.5625,59.4942296 L62.5410325,43.7202 Z" id="path-1"></path>
+    </defs>
+    <g id="Escuela-VR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-945.000000, -483.000000)">
+        <g id="Foundation-/-Icons-/-Simple-/-Player" transform="translate(945.000000, 483.000000)">
+            <g id="Foundation-/-Colors-/-Neutral-/-N001">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#252A32" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)" fill="#252A32" id="Rectangle-10">
+                    <rect x="0" y="0" width="90" height="90"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

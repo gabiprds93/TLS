@@ -1,0 +1,46 @@
+.fakeP{width: 0 !important;}
+
+/*******EDUCACION CONTINUA CURSOS********/
+.ecCTittle{color: #31B8D5 !important;}
+.ecCBread a:last-child{color: #31B8D5;}
+.ecCText{width: 50%; text-align: center;}
+.ecCTittle:nth-child(1){width: 105%;}
+.ecCDescripcion{background: #31B8D5 !important;}
+.ecCcontainer .slick-dots li button:before{background: #31B8D5;} /*color de fondo de todos los bullets*/
+.ecCcontainer .slick-dots li.slick-active button:before{background: transparent;} /*color de fondo del bullet activo*/
+.ecCcontainer .slick-dots li.slick-active button:before{border: 2px solid #31B8D5;} /*color de borde del bullet activo*/
+
+.ecMundos .carrera{height: calc(100% / 2)}
+.ecCate .carrera{height: calc(100% / 2)}
+
+.cursosSeccionContainer .descripciones h2{color: #31B8D5;}
+.cursosSeccionContainer .descripcion li::before{color: #31B8D5;}
+
+/*************EDUCACION CONTINUA DIPLOMADO*******************/
+.ecDTittle{color: #31B8D5 !important;}
+.diplomadoSeccionContainer h2{color: #31B8D5;}
+.diplomadoSeccionContainer li::before{color: #31B8D5;}
+
+
+/********************************************************************************************/
+@media screen and (min-width: 1367px) {
+
+} 
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:1024px){
+
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:768px) {
+	.ecCText{width: 80%;margin-bottom: 0 !important;}
+	.ecLinks{flex-wrap: wrap;}
+	.ecLinks .btnContainer{width: calc((100% - 6rem)/ 2);margin-bottom: 1.5rem;}
+}
+/********************************************************************************************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (max-width:640px) {
+}
+/********************************************************************************************/
+@media (max-width:480px) {
+
+}
+/********************************************************************************************/

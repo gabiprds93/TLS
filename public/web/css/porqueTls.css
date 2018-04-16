@@ -1,0 +1,73 @@
+.fakeWhyTls{height: 4rem;}
+.middleMainContainer{display: flex;align-items: center;justify-content: space-between;flex-direction: column;width: 100%;height: 100%;}
+.tabSubListGuion li{list-style: none;text-indent: -1rem;}
+.tabSubListGuion li::before{content: '-';font-weight: bold;margin-right: .7rem;}
+.porqueTLSCalEduca .fakeHeader{height: 7.5rem;}
+
+.porQTlsSlideMainContainer{/*background: red;*/width: 100%;height: 90%;display: flex;align-items: center;justify-content: center;}
+.porQTlsSlideContainer{width: 100%;height: 75%;display: flex;align-items: center;justify-content: center;position: relative;right: -6%;top: 0rem;}
+.porQTlsSlide{width: 100%;height: 100%;/*display: flex;align-items: center;justify-content: center;*/}
+.porQTlsSlide .slick-list{height: 100%;}
+.porQTlsSlide .slick-list .slick-track{height: 100%;}
+.pqTlsSlideContent {
+	height: 86%;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-left: 10px;
+	cursor: move;
+}
+.pqTlsContent {
+	background: white;
+	width: 80%;
+	height: 60%;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, .5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	position: relative;
+}
+.pqTlsContent .contentText{font-size: .9rem;color: #8590A1}
+.contentPqt {
+	width: 80%;
+	height: 70%;
+}
+.contentPqt h2{margin: .6rem 0;}
+.contentPqt .orden{/*color: #FF9700;*/}
+.contentPqt .contentButton{font-size: .9rem;letter-spacing: 2px;}
+.pqTlsContentImg {
+	position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+    width: 50%;
+}
+.pqTlsContentImg img {
+	max-width: 100%;
+	width: 170px;
+	height: 130px;
+}
+.lineaPqTls{margin: 1.5rem 0;/*background: #FF9700;*/width: 15%;height: .3rem;border-radius: 1px;}
+.popUpContainer {
+	background: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+    left: 0;
+	z-index: -1;
+	opacity: 0;
+	transform: scale(.1);
+	cursor: move;
+}
+.sliderPopUp{height: 100%;}
+.sliderPopUp .slick-list{height: 100%;}
+.sliderPopUp .slick-list .slick-track{height: 100%;}
+.closePopUpButton{margin-bottom: 3rem;cursor: pointer;}
+.closePopUp{margin-bottom: 3rem;cursor: pointer;}
+/*@erios*/
+.pqTlsSlideContent .linkContainerOrigin, .pqTlsSlideContent .imageContainerOrigin{
+	display: none;
+}

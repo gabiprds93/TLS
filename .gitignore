@@ -1,0 +1,34 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+# excluye el contenido de las carpetas
+public/img/contenidos/*
+public/img/carreras/*
+public/img/eventos/*
+public/img/egresados/*
+public/img/sedes/*
+public/img/paginas/*
+public/img/historias/*
+public/img/blog/*
+
+# a excepcion de las carpetas mismas
+!public/img/contenidos/.gitkeep 
+!public/img/carreras/.gitkeep 
+!public/img/eventos/.gitkeep 
+!public/img/egresados/.gitkeep 
+!public/img/sedes/.gitkeep 
+!public/img/paginas/.gitkeep 
+!public/img/historias/.gitkeep 
+!public/img/blog/.gitkeep 
+
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env

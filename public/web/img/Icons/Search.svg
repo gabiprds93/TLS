@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Foundation / Icons / Simple / Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.1137105,11.0613824 L14.8210641,13.7687359 C15.0553786,14.0030505 15.0553786,14.3829495 14.8210641,14.6172641 C14.5867495,14.8515786 14.2068505,14.8515786 13.9725359,14.6172641 L11.2832399,11.927968 C10.0866193,12.9751646 8.51987963,13.6098 6.8049,13.6098 C3.04685953,13.6098 -0.0001,10.5625013 -0.0001,6.8048 C-0.0001,3.04642915 3.04652915,-0.0002 6.8049,-0.0002 C10.56311,-0.0002 13.6089,3.04626826 13.6089,6.8048 C13.6089,8.41558177 13.0492213,9.89577865 12.1137105,11.0613824 Z M1.1999,6.8048 C1.1999,9.89978948 3.70963114,12.4098 6.8049,12.4098 C9.89994827,12.4098 12.4089,9.90001019 12.4089,6.8048 C12.4089,3.70895015 9.90030849,1.1998 6.8049,1.1998 C3.70927085,1.1998 1.1999,3.70917085 1.1999,6.8048 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Foundation-/-Icons-/-Simple-/-Search">
+            <g transform="translate(1.000000, 1.000000)" id="Foundation-/-Colors-/-Neutral-/-N001">
+                <g>
+                    <g id="Page-1">
+                        <g id="Foundation-/-Colors-/-Neutral-/-N001">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#252A32" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
